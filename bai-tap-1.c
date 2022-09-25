@@ -26,11 +26,19 @@ void thuonghaiso(int a, int b){
   t=a/b;
   printf("thuong hai so la %d\n",t );
 }
+void tong(int a){
+  int s=0 ,i;
+  for ( i= 0; i<=a; i++) {
+    s=s+i;
+  }
+  printf("tong tu 1 den %d la %d\n",a,s );
+}
 int main(int argc, char const *argv[]) {
     tonghaiso(3,4);
     hieuhaiso(4,3);
     tichhaiso(4,3);
     thuonghaiso(4,3);
+    tong(100);
 
 
 
