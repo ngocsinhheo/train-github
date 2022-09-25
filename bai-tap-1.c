@@ -33,13 +33,22 @@ void tong(int a){
   }
   printf("tong tu 1 den %d la %d\n",a,s );
 }
+void somu(int y) {
+  int i,s=0;
+  for (size_t i = 0; i <= 100; i++) {
+    s=s+pow(i,y);
+  }
+
+    printf("tong la %d\n",s );
+}
+
 int main(int argc, char const *argv[]) {
     tonghaiso(3,4);
     hieuhaiso(4,3);
     tichhaiso(4,3);
     thuonghaiso(4,3);
     tong(100);
-
+    somu(2);
 
 
 
