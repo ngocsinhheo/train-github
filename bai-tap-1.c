@@ -1,11 +1,12 @@
 #include <stdio.h>
-
+// ĐÂY LÀ TÍNH TỔNG 2 SỐ
 void tonghaiso(int a,int b) {
     int s;
     s=a+b;
 
     printf("tong 2 so la %d\n",s );
 }
+// ĐÂY LÀ HIỆU 2 SỐ
 void hieuhaiso(int a , int b){
   int h;
   if (a>b) {
@@ -16,16 +17,19 @@ void hieuhaiso(int a , int b){
   }
   printf("hieu hai so la %d\n",h );
 }
+// TÍCH 2 SỐ
 void tichhaiso(int a , int b) {
   int t;
   t=a*b;
   printf("tich hai so la %d\n",t );
 }
+// THƯƠNG 2 SỐ
 void thuonghaiso(int a, int b){
   int t;
   t=a/b;
   printf("thuong hai so la %d\n",t );
 }
+// TỔNG TỪ 1 ĐẾN 100
 void tong(int a){
   int s=0 ,i;
   for ( i= 0; i<=a; i++) {
@@ -33,6 +37,7 @@ void tong(int a){
   }
   printf("tong tu 1 den %d la %d\n",a,s );
 }
+// TỔNG TỪ 1 MŨ X ĐẾN 100 MŨ X
 void somu(int y) {
   int i,s=0;
   for (size_t i = 0; i <= 100; i++) {
@@ -41,7 +46,7 @@ void somu(int y) {
 
     printf("tong la %d\n",s );
 }
-
+// PHẦN EM CHẠY THỬ
 int main(int argc, char const *argv[]) {
     tonghaiso(3,4);
     hieuhaiso(4,3);
