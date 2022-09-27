@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-void tinhToan(int n ,int pheptinh){
+void tinhToan(int n ,char pheptinh){
 
   int i,giaTri=0;
 
