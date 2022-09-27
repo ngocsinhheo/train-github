@@ -46,16 +46,48 @@ void somu(int y) {
 
     printf("tong la %d\n",s );
 }
+//BÀI VỪA LÀM LÚC NÃY ĐÂY ANH
+void tinhToan(int n ,char pheptinh){
+
+  int i,giaTri=0;
+
+  if (pheptinh='+') {
+
+      for ( i = 0; i < n; i++) {
+
+        giaTri=giaTri + i;
+
+      }
+  printf("tong hai so la %d\n",giaTri );
+    }
+
+    if (pheptinh='-') {
+
+        for ( i = 0; i < n; i++) {
+
+          giaTri=giaTri - i;
+
+        }
+    printf("hieu hai so la %d\n",giaTri );
+      }
+
+}
 // PHẦN EM CHẠY THỬ
-int main(int argc, char const *argv[]) {
+int main() {
     tonghaiso(3,4);
+
+
     hieuhaiso(4,3);
+
     tichhaiso(4,3);
+
     thuonghaiso(4,3);
+
     tong(100);
+
     somu(2);
 
-
+    tinhToan(5,'+');
 
   return 0;
 }
